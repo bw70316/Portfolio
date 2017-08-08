@@ -17,6 +17,32 @@ body
 	clear:both;
 }
 
+#aero {
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		color: darkblue;
+		font-weight: bold;
+		background-color: pink;
+		padding:0px;
+		text-shadow: -1px 0 lightgreen, 0 1px lightgreen, 1px 0 lightgreen, 0 -1px lightgreen;
+
+}
+
+#planes {
+	height:207px;
+
+
+}
+
+#onion  {
+	color: darkblue;
+	font-weight:bold;
+}
+
+#simpsons {
+	font-family: 'rock salt';
+	color: #fad443;
+	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+}
 
 }
 
@@ -32,6 +58,10 @@ h1, h2, h3 {
 	color:#4aaaa5;
 }
 
+#onionPic {
+	height: 220px;
+}
+
 h1 {
 	font-size: 30px;
 	line-height: 49px;
@@ -40,7 +70,7 @@ h1 {
 }
 
  h3 {
-	font-size:22px;}
+	font-size:28px;}
 
 .masthead {
 	background:#fff;
@@ -189,6 +219,7 @@ h3, .sidebar, h2 {
 		
 		color: lightgreen;
 		text-align: center;
+		text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
 		position: absolute;
 		top: 25px;
 		padding: 15px;
