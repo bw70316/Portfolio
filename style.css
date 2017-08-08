@@ -217,8 +217,13 @@ h3, .sidebar, h2 {
 	width: 100%;
 	border: 0 none;
 	opacity:.8;
+	border-style: groove;
+	border-color: darkred;
 }
 
+img {
+	border-style: groove;
+}
 
 .work h3 {border-bottom: 0;
 		
