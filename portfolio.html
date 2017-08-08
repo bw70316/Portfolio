@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<title>Portfolio</title>
-		<meta name="viewport" content="width=device-width, initial scale=1">
-		<link rel="stylesheet" type="text/css" href="reset.css">		
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>About Me</title>
+    <meta name="viewport" content="width=device-width, initial scale=1">
+    <link rel="stylesheet" type="text/css" href="reset.css">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
-		<!--above I listed my style sheet last, in order to override bootstrap-->
-
+    
 </head>
 <body>
-	<nav class="masthead">
+  <nav class="masthead">
   <div class="container-fluid">
     <div class="navbar-header">
 
@@ -23,10 +20,10 @@
       
       
       
-      <ul class="nav" class="list-inline" style="margin-right:100px">
-        <li><a href="portfolio.html">About Me</a></li>
-        <li><a href="index.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
+      <ul class="nav navbar-nav navbar-right" style="margin-right:100px">
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
      </ul>
         
     </div>
@@ -37,46 +34,33 @@
 <div class="container">
   <div class="row">
        <div class="col-sm-8">
-  <!--below I created a separate section so I could create my border in my style.css-->
-   <section>
+       <section>
      <div class="page-header">
-  <h1>Portfolio</h1>
+  <h1>About Me</h1>
 </div>
-    <div class="work">
-    <a target="_blank" href="https://aqueous-crag-94192.herokuapp.com/">
-        <img src="convertible.jpg" class="auth-image" alt="RPG Game" id="road">
-        <a target="_blank" href="https://aqueous-crag-94192.herokuapp.com/">
-        <h3>Road Trippin'</h3>
-        </a>
-    </div>
-    <div class= "work" id="onion">
-        <img src="onion.jpg" class="auth-image" alt="RPG Game" id="onionPic">
+<div class="row">
+  <div class="col-sm-3">
+       <img src="brian.jpg" class="thumbnail" alt="Brian Wisnowski" height="150px" width="150px">
+  </div>
+  <div class="col-sm-9">
+      <div class="caption">
+      <!--I am interested in learning how to wrap this text around the image?? floats? a "wrapper?"-->
+       <p>I initially entered the expansive world of coding envisioning the experience as a great way to supplement my previous writing experience. I imagined myself not only creating the written content for a site, but also developing its layout, design, and functionality. However, as I continue to gain more experience, I realize I have an affinity for backend development.</p>
 
-        <h3 id="onion">Scraping <i>The Onion</i></h3>
+    <p>When it comes to writing, my creativity is rather expansive. Unfortunately, my ability to paint a picture with words has yet to translate into design. However, I feel that with my current foundation in database management and with continual practice I am equipped with the necessary tools to become an excellent backend developer.
     </div>
-      <div class= "work">
-        <img src="simpsons.png" class="auth-image" alt="Trivia Game">
-
-        <h3 id="simpsons">Simpsons Trivia</h3>
     </div>
-      <div class= "work">
-        <img src="plane.jpg" class="auth-image" alt="Rutgrs Info " id="planes">
-
-        <h3 id="aero">Awesome Airlines</h3>
-    </div>
-   
-    </section>
-
+</div>
+</section>
     </div>    
-    <div class="col-sm-1">
+    <div class="col-sm-2">
     <p>   </p>
     </div>
-      <div class="col-sm-4">
-      <!--Instead of creating a separate class in my css, I styled some new elements in the html-->
-    <div class="panel panel-default" style="width:270px" style="text-align:center" >
+      <div class="col-sm-3">
+    <div class="panel panel-default" style="width:270px" style="margin-left:10px">
   <div class="panel-body">
-    <h3><i class="fa fa-address-book" aria-hidden="true"></i>   Connect to Me</h3>
-   <ul class="list-inline" style="margin-left:10px">
+    <h3>Connect to Me</h3>
+    <ul class="list-inline" style="margin-left:10px">
     <li><a href="https://www.linkedin.com/in/brian-wisnowski-82886248/"><img src="linkedin.png" class="social" alt="LinkedIn" height="40px" width="40px"></a></li>
     <li><a href="https://github.com/bw70316"><img src="github.png" class="social" alt="LinkedIn" height="40px" width="40px"></a></li>
     <li><a href="https://stackoverflow.com/users/7410693/bw70316"><img src="overflow.png" class="social" alt="LinkedIn" height="40px" width="40px"></a></li>
@@ -97,12 +81,13 @@
 
 
 
-		</div>
-	</section>
+    </div>
+  </section>
 
 </div>
 </div>
-<nav class="footer">
+
+ <nav class="footer">
   <div class="bottom">
     <p id="footer-text">
     <p>© Brian Wisnowski 2017</p>
@@ -113,5 +98,5 @@
         
 
 
-	</body>
-	</html>
+  </body>
+  </html>
