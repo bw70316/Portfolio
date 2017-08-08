@@ -27,6 +27,10 @@ font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 }
 
+#connection {
+	font-size: 22px;
+}
+
 #planes {
 	height:207px;
 
@@ -97,6 +101,7 @@ a:hover {
 		text-align: center;
 		line-height: 90px;
 		margin-left:155px;
+		border-radius: 12px;
 		padding:30px;
 		color: black;
 		font-weight:700;
