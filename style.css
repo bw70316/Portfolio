@@ -92,7 +92,7 @@ h1 {
 
 
 a:hover { 
-    background-color: yellow;
+    background-color: lightgreen;
 }
 
 .logo {width: 300px;
@@ -255,10 +255,15 @@ nav li a {
 }
 
 #hover:hover {
-	background-color: lightblue;
+	background-color: lightgreen;
 	border-radius: 7px;
 /*	border-style:groove;
 	border-color:white;*/
+}
+
+.thumbnail {
+
+	border-color: black;
 }
 
 nav li a:hover {
