@@ -264,8 +264,10 @@ nav li a {
 }
 
 .thumbnail {
-
+	float:left;
 	border-color: black;
+	margin-right: 8px;
+	margin-bottom: 0px;
 }
 
 nav li a:hover {
@@ -287,7 +289,7 @@ background: #ffffff;
 	border: 1px solid #ddd;
 }
 
-.caption {float:left;
+.caption {
 margin-left:30px;}
 
 
@@ -433,10 +435,52 @@ margin-top:16px;
 
 
 
+@media(max-width: 990px) {
 
+	nav li a {
+		margin-left: 15px;
+		float: left;
+	}
 
+	.logo {
+	margin-left: 0px;
+		max-width: 150px;
+		height:100%;
+		font-size: 20px;
+	padding:35px;
+	}
+}
 
-#road {
+@media(max-width: 768px) {
 
+	nav li a {
+		margin-right: 0px;
+		float: left;
+	}
+
+	.logo {
+	margin-left: 60.5px;
+		max-width: 150px;
+		height:100%;
+		font-size: 20px;
+	padding: 20px;
+	
+
+}
+
+.nav {
+	position:absolute; 
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+.masthead {
+	height: 150px;
+	margin-bottom: 75px;
+}
+
+section {
+	margin-top: 70px;
+}
 }
 
