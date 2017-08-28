@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial scale=1">
     <link rel="stylesheet" type="text/css" href="reset.css">    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
     <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="images.png" />
-    <!--above I listed my style sheet last, in order to override bootstrap-->
+    <link rel="icon" type="image/x-icon" href="assets/images/images.png"/>
+    <!--above I listed my style sheet last, in order to override bootstrap-->    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -36,19 +36,19 @@
   <!--below I created a separate section so I could create my border in my style.css-->
    <section>
      <div class="page-header">
-      <h1>Portfolio</h1>
+      <h1 id="title"> <i class="fa fa-briefcase" aria-hidden="true"></i>         Portfolio</h1>
       </div>
         <div class="work">
            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
               <div class="flipper">
                 <div class="front">
-                  <img src="convertible.jpg" class="auth-image" alt="RPG Game" id="road">
+                  <img src="assets/images/convertible.jpg" class="auth-image" alt="RPG Game" id="road">
                   <a target="_blank" href="https://aqueous-crag-94192.herokuapp.com/">
                   <h3>Road Trippin'</h3></a>
                 </div>
                 <div class="back">
                   <a target="_blank" href="https://aqueous-crag-94192.herokuapp.com/">
-                   <img src="trip.png" class="auth-image" alt="RPG Game" id="convertible"></a>
+                   <img src="assets/images/trip.png" class="auth-image" alt="RPG Game" id="convertible"></a>
                 </div>
             </div>
         </div>
@@ -59,13 +59,13 @@
       <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
         <div class="flipper">
            <div class="front">
-              <img src="nfl1.png" class="auth-image" alt="RPG Game" id="nflPic">
+              <img src="assets/images/nfl1.png" class="auth-image" alt="RPG Game" id="nflPic">
               <a target="_blank" href="https://immense-chamber-11363.herokuapp.com/">
               <h3 id="onion">Fantasy Football Scrape</h3></a>
             </div>
             <div class="back">
                <a target="_blank" href="https://immense-chamber-11363.herokuapp.com/">
-               <img src="nfl.jpg" class="auth-image" alt="RPG Game" id="nflPic"></a>
+               <img src="assets/images/nfl.jpg" class="auth-image" alt="RPG Game" id="nflPic"></a>
             </div>
         </div>
       </div>
@@ -75,13 +75,13 @@
       <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
         <div class="flipper">
            <div class="front">
-             <img src="simpsons.png" class="auth-image" alt="Trivia Game">
+             <img src="assets/images/simpsons.png" class="auth-image" alt="Trivia Game">
              <a target="_blank" href="https://bw70316.github.io/TriviaGame/">
             <h3 id="simpsons">Simpsons Trivia</h3></a>
            </div>
           <div class="back">
             <a target="_blank" href="https://bw70316.github.io/TriviaGame/">
-            <img src="simp.png" class="auth-image" alt="RPG Game" id="onionPic"></a>       
+            <img src="assets/images/simp.png" class="auth-image" alt="RPG Game" id="onionPic"></a>       
           </div>
         </div>
       </div>
@@ -92,12 +92,12 @@
         <div class="flipper">
            <div class="front">
             <a target="_blank" href="https://bw70316.github.io/Planes/">
-            <img src="plane.jpg" class="auth-image" alt="plane" id="planes">
+            <img src="assets/images/plane.jpg" class="auth-image" alt="plane" id="planes">
             <h3 id="aero">Awesome Airlines</h3></a>
           </div>
           <div class="back">
             <a target="_blank" href="https://bw70316.github.io/Planes/">
-            <img src="planes.png" class="auth-image" alt="RPG Game" id="onionPic">
+            <img src="assets/images/planes.png" class="auth-image" alt="RPG Game" id="onionPic">
             <a target="_blank" href="https://bw70316.github.io/Planes/"> </a>
             </div>
         </div>
@@ -113,11 +113,11 @@
       <!--Instead of creating a separate class in my css, I styled some new elements in the html-->
     <div class="panel panel-default" style="width:270px" style="text-align:center" >
   <div class="panel-body">
-    <h3 id="connection"><i class="fa fa-address-book" aria-hidden="true"></i>    Connect to Me</h3>
+     <h3 id="connection"><i class="fa fa-address-book" aria-hidden="true"></i>   Connect to Me</h3>
    <ul class="list-inline" style="margin-left:10px">
-    <li><a href="https://www.linkedin.com/in/brian-wisnowski-82886248/"><img src="linkedin.png" class="social" alt="LinkedIn" height="40px" width="40px"></a></li>
-    <li><a href="https://github.com/bw70316"><img src="github.png" class="social" alt="LinkedIn" height="40px" width="40px"></a></li>
-    <li><a href="https://stackoverflow.com/users/7410693/bw70316"><img src="overflow.png" class="social" alt="LinkedIn" height="40px" width="40px"></a></li>
+    <li><a href="https://www.linkedin.com/in/brian-wisnowski-82886248/"><img src="assets/images/linkedin.png" class="social" alt="LinkedIn" height="35px" width="35px"></a></li>
+    <li><a href="https://github.com/bw70316"><img src="assets/images/github.png" class="social" alt="LinkedIn" height="35px" width="35px"></a></li>
+    <li><a href="https://stackoverflow.com/users/7410693/bw70316"><img src="assets/images/overflow.png" class="social" alt="LinkedIn" height="35px" width="35px"></a></li>
     </ul>
     </div>
   </div>

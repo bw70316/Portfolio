@@ -4,7 +4,7 @@ body
 		{
 		font-size: 18px;
 		line-height: 34px;
-		background: url("saygata.png");
+		background-image: url("https://i.pinimg.com/236x/11/d3/15/11d31543d2141800d56c09d93e9c44e3--blue-patterns-design-patterns.jpg");
 		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 		color:#777;
 		}
@@ -29,6 +29,7 @@ font-family: 'Courier New' 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 #connection {
 	font-size: 22px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #planes {
@@ -71,7 +72,8 @@ h1, h2, h3 {
 h1 {
 	font-size: 30px;
 	line-height: 49px;
-	border-bottom: 3px solid #ddd;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	border-bottom: 3px solid #1aafbf;
 	padding-bottom:20px;
 }
 
@@ -79,14 +81,14 @@ h1 {
 	font-size:28px;}
 
 .masthead {
-	background:#fff;
+/*	background:#fff;*/
 	margin: 0 0 30px;
 	height:93.5px;
 	z-index:99;
 	color: #fff;
 	position:fixed;
 	overflow:auto;
-	border-bottom:2px solid #ccc;
+	border-bottom:2px solid maroon;
 	width: 100%;
 }
 
@@ -97,6 +99,12 @@ a:hover {
     background-color: lightgreen;
 }
 
+.container-fluid {
+	background: #00feff;
+	height:100%;
+	border-bottom: #00feff;
+}
+
 .logo {width: 300px;
 		height: 90px;
 		background: lightblue;
@@ -105,6 +113,7 @@ a:hover {
 		line-height: 90px;
 		margin-left:155px;
 		border-radius: 12px;
+			text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
 		padding:30px;
 		color: black;
 		font-weight:700;
@@ -221,6 +230,10 @@ margin-top:25px;
 
 }
 
+#title {
+	margin-left: 2px;
+}
+
 .back-title {
 	font-weight: bold;
 	color: #00304a;
@@ -243,6 +256,18 @@ margin-top:25px;
 	padding: 0 20px;
   font-family: arial;
   line-height: 2em;
+}
+
+.page-header {
+	border-bottom: 0px;
+}
+
+.panel-body {
+	background: #9a3636;
+	border: 3px solid red;
+	border-style: groove;
+	border-radius: 10px;
+
 }
 
  .nav>li {display:inline-block;}
@@ -280,13 +305,16 @@ nav a:first-child
 
 section {border: 1px solid red;
 margin-bottom:20px;
-background: #ffffff;
+background: #9a3636;
 	padding:30px;
 	margin: 0 0 40px 0;
 	width:100%;
+   
 	max-width: 650px;
 	float:left;
-	border: 1px solid #ddd;
+	border: 3px solid red;
+	border-style: groove;
+	border-radius: 10px;
 }
 
 .caption {
@@ -312,16 +340,19 @@ margin-right: 25px;
 
 h3, .sidebar, h2 {
 	text-align:center;
-		border-bottom: 2px solid #eee;
+		border-bottom: 2px solid #1aafbf;
 		padding-bottom: 20px;
 		margin-bottom: 15px;
 		line-height: 22px;
 	}
 
+#bear {
+	text-align: center;
+}
 
 .social {
-	width: 62px;
-	height: 62px;
+	width: 57.7px;
+	height: 57.7px;
 	margin-top: 8px;
 	margin-right: 5px;
 
@@ -339,17 +370,29 @@ h3, .sidebar, h2 {
 	color: #ccc ;
 	font-size: 12px;
 	text-align: center;
+	margin-top:200px;	
 	font-size: 18px;
 	font-weight: bold;
 
 
 }
 
+#email {
+	margin-left:145.7px;
+}
+
+#sidebar {
+	margin-left: 200px;
+}
+
+
+
 #footer-text {
 	text-align: center;
 		color: #ccc ;
 
 }
+
 
 .work {
 	width:100%;
@@ -403,6 +446,9 @@ img {
 
   }
 
+#contact {
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 
  input[type=text],
  input[type=email],
@@ -447,6 +493,7 @@ margin-top:16px;
 		max-width: 150px;
 		height:100%;
 		font-size: 20px;
+			text-shadow: -1px 0 darkblue, 0 1px darkblue, 1px 0 darkblue, 0 -1px darkblue;
 	padding:35px;
 	}
 }
